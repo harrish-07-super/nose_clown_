@@ -1,0 +1,21 @@
+h2{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color:red ;
+}
+
+button{
+    font-size: 20px;
+}
+
+canvas{
+    animation-name: super;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes super{
+    from{box-shadow: 1px 1px 35px rgb(255, 0, 221);}
+    to{box-shadow: 1px 1px 35px rgb(0, 60, 255);}
+}
